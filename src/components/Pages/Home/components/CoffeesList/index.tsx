@@ -16,15 +16,19 @@ export function CoffeesList() {
             &nbsp;quente e grãos moídos
           </p>
         </div>
-        <div className="bottomElements">
-          <p>R$ 9,90</p>
-          <button>-</button>
-          <span id="number">0</span>
-          <button>+</button>
-          <button>
-            <img src={Button} alt="" />
-          </button>
+      </div>
+
+      <div className="price">
+        <div>
+          <p>R$</p>
+          <h2>9,90</h2>
         </div>
+        <button className="colorButtonOne">-</button>
+        <span id="number">0</span>
+        <button className="colorButtonTwo">+</button>
+        <button>
+          <img src={Button} alt="" />
+        </button>
       </div>
     </CoffeeListContainer>
   );

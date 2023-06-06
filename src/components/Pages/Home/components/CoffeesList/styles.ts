@@ -22,12 +22,50 @@ export const CoffeeListContainer = styled.div`
 
       color: ${(props) => props.theme["base-label"]};
     }
+  }
 
-    button {
-      all: unset;
-      background-color: transparent;
-      background: none;
-      cursor: pointer;
+  .price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 57px;
+    margin-top: 28px;
+
+    & > div {
+      display: flex;
+
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 6px;
+        margin-right: 5px;
+        color: ${(props) => props.theme["base-subtitle"]};
+      }
+
+      h2 {
+        font-family: "Baloo 2";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 130%;
+        color: ${(props) => props.theme["base-subtitle"]};
+      }
     }
+  }
+
+  button {
+    all: unset !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+    color: ${(props) => props.theme.purple};
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
   }
 `;
