@@ -1,109 +1,28 @@
-import traditionalEspresso from "../../../../../assets/traditionalEspresso.svg";
+import TraditionalCoffeeWithMilk from "../../../../../assets/TraditionalCoffeeWithMilk.svg";
 import traditional from "../../../../../assets/traditional.svg";
-import chilled from "../../../../../assets/chilled.svg";
+import withMilk from "../../../../../assets/withMilk.svg";
 import Button from "../../../../../assets/Button.svg";
-import traditionalAmerican from "../../../../../assets/traditionalAmerican.svg";
-import traditionalCreamy from "../../../../../assets/traditionalCreamy.svg";
-import traditionalChilled from "../../../../../assets/traditionalChilled.svg";
-import { CoffeeListContainer } from "./styles";
-import { CoffeesListTwo } from "../CoffeeListTwo";
+import traditionalLatte from "../../../../../assets/traditionalLatte.svg";
+import traditionalCapuccino from "../../../../../assets/traditionalCapuccino.svg";
+import traditionalMacchiato from "../../../../../assets/traditionalMacchiato.svg";
+import { CoffeeListTwoContainer } from "./styles";
+import { CoffeeListThree } from "../CoffeListThree";
 
-export function CoffeesList() {
+export function CoffeesListTwo() {
   return (
     <>
-      <CoffeeListContainer>
+      <CoffeeListTwoContainer>
         <div className="background">
-          <div className="firstCoffee">
-            <img className="coffee" src={traditionalEspresso} alt="" />
-            <img src={traditional} alt="" />
-            <h3>Expresso Tradicional</h3>
-            <p>
-              O tradicional café feito com água <br /> &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp;quente e grãos moídos
-            </p>
-          </div>
-
-          <div className="price">
-            <div>
-              <p>R$</p>
-              <h2>9,90</h2>
-            </div>
-            <div className="elements">
-              <button className="firstButton">-</button>
-              <span>0</span>
-              <button className="secondButton">+</button>
-            </div>
-            <button className="buttonImg">
-              <img src={Button} alt="" />
-            </button>
-          </div>
-        </div>
-
-        <div className="background">
-          <div className="firstCoffee">
-            <img className="coffee" src={traditionalAmerican} alt="" />
-            <img src={traditional} alt="" />
-            <h3>Expresso Americano</h3>
-            <p>
-              Expresso diluído, menos intenso <br /> &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;que o tradicional
-            </p>
-          </div>
-
-          <div className="price">
-            <div>
-              <p>R$</p>
-              <h2>9,90</h2>
-            </div>
-            <div className="elements">
-              <button className="firstButton">-</button>
-              <span>0</span>
-              <button className="secondButton">+</button>
-            </div>
-            <button className="buttonImg">
-              <img src={Button} alt="" />
-            </button>
-          </div>
-        </div>
-
-        <div className="background">
-          <div className="firstCoffee">
-            <img className="coffee" src={traditionalCreamy} alt="" />
-            <img src={traditional} alt="" />
-            <h3>Expresso Cremoso</h3>
-            <p>
-              Café expresso tradicional com <br /> &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;espuma cremosa
-            </p>
-          </div>
-
-          <div className="price">
-            <div>
-              <p>R$</p>
-              <h2>9,90</h2>
-            </div>
-            <div className="elements">
-              <button className="firstButton">-</button>
-              <span>0</span>
-              <button className="secondButton">+</button>
-            </div>
-            <button className="buttonImg">
-              <img src={Button} alt="" />
-            </button>
-          </div>
-        </div>
-
-        <div className="background">
-          <div className="firstCoffee">
-            <img className="coffee" src={traditionalChilled} alt="" />{" "}
+          <div className="secondaryCoffee">
+            <img className="coffee" src={TraditionalCoffeeWithMilk} alt="" />{" "}
             <div className="twoImgs">
               <img src={traditional} alt="" />
-              <img className="type" src={chilled} alt="" />
+              <img className="type" src={withMilk} alt="" />
             </div>
-            <h3>Expresso Cremoso</h3>
+            <h3>Café com Leite</h3>
             <p>
-              Café expresso tradicional com <br /> &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp;espuma cremosa
+              Meio a meio de expresso <br /> &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;tradicional com leite vaporizado
             </p>
           </div>
 
@@ -122,8 +41,98 @@ export function CoffeesList() {
             </button>
           </div>
         </div>
-      </CoffeeListContainer>
-      <CoffeesListTwo />
+
+        <div className="background">
+          <div className="secondaryCoffee">
+            <img className="coffee" src={traditionalLatte} alt="" />{" "}
+            <div className="twoImgs">
+              <img src={traditional} alt="" />
+              <img className="type" src={withMilk} alt="" />
+            </div>
+            <h3>Latte</h3>
+            <p>
+              Uma dose de café expresso com o <br /> &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;dobro de leite e espuma cremosa
+            </p>
+          </div>
+
+          <div className="price">
+            <div>
+              <p>R$</p>
+              <h2>9,90</h2>
+            </div>
+            <div className="elements">
+              <button className="firstButton">-</button>
+              <span>0</span>
+              <button className="secondButton">+</button>
+            </div>
+            <button className="buttonImg">
+              <img src={Button} alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div className="background">
+          <div className="secondaryCoffee">
+            <img className="coffee" src={traditionalCapuccino} alt="" />{" "}
+            <div className="twoImgs">
+              <img src={traditional} alt="" />
+              <img className="type" src={withMilk} alt="" />
+            </div>
+            <h3>Capuccino</h3>
+            <p>
+              Café expresso misturado com um <br /> &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;pouco de leite quente e espuma
+            </p>
+          </div>
+
+          <div className="price">
+            <div>
+              <p>R$</p>
+              <h2>9,90</h2>
+            </div>
+            <div className="elements">
+              <button className="firstButton">-</button>
+              <span>0</span>
+              <button className="secondButton">+</button>
+            </div>
+            <button className="buttonImg">
+              <img src={Button} alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div className="background">
+          <div className="secondaryCoffee">
+            <img className="coffee" src={traditionalMacchiato} alt="" />{" "}
+            <div className="twoImgs">
+              <img src={traditional} alt="" />
+              <img className="type" src={withMilk} alt="" />
+            </div>
+            <h3>Macchiato</h3>
+            <p>
+              Bebida com canela feita de doses <br /> &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp;iguais de café, leite e espuma
+            </p>
+          </div>
+
+          <div className="price">
+            <div>
+              <p>R$</p>
+              <h2>9,90</h2>
+            </div>
+            <div className="elements">
+              <button className="firstButton">-</button>
+              <span>0</span>
+              <button className="secondButton">+</button>
+            </div>
+            <button className="buttonImg">
+              <img src={Button} alt="" />
+            </button>
+          </div>
+        </div>
+      </CoffeeListTwoContainer>
+      <CoffeeListThree />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CoffeeListContainer = styled.div`
+export const CoffeeListTwoContainer = styled.div`
   display: flex;
   gap: 20px;
   margin-top: 50px;
@@ -13,7 +13,7 @@ export const CoffeeListContainer = styled.div`
     border-radius: 6px 36px;
   }
 
-  .firstCoffee {
+  .secondaryCoffee {
     display: flex;
     flex-direction: column;
     align-items: center;
