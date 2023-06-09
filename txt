@@ -11,3 +11,5 @@ Feito isso, após realizar o downgrade. com estes comandos, instalamos o styled-
 da seguinte forma:
 
 npm i styled-components
+
+Ec para as rotas, instalamos a biblioteca npm install react-router-dom
