@@ -14,7 +14,8 @@ export const defaultTheme = {
   "base-label": "#8D8686",
   "base-hover": "#D7D5D5",
   "base-button": "#E6E5E5",
-  "base-input": "#EDEDED",
+  "font-button": "#574F4D",
+  "base-input": "#EEEDED",
   "base-card": "#F3F2F2",
 
   background: "#FAFAFA",

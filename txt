@@ -13,3 +13,5 @@ da seguinte forma:
 npm i styled-components
 
 Ec para as rotas, instalamos a biblioteca npm install react-router-dom
+
+Para os formulários vamos começar com esta biblioteca npm install react-hook-form
