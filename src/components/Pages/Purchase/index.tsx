@@ -7,6 +7,7 @@ import debitCard from "../../../assets/debitCard.svg";
 import money from "../../../assets/money.svg";
 import traditionalEspresso from "../../../assets/traditionalEspresso.svg";
 import trash from "../../../assets/trash.svg";
+import traditionalLatte from "../../../assets/traditionalLatte.svg";
 /* import { useForm } from "react-hook-form"; */
 
 export function Purchase() {
@@ -85,6 +86,32 @@ export function Purchase() {
                 <h3>
                   <img className="imageOne" src={traditionalEspresso} alt="" />
                   Expresso Tradicional
+                </h3>
+                <div className="price">
+                  <div className="elements">
+                    <div className="buttons">
+                      <button className="firstButton">-</button>
+                      <span>1</span>
+                      <button className="secondButton">+</button>
+                    </div>
+                    <button className="trashButton">
+                      <img src={trash} alt="" /> REMOVER
+                    </button>
+                  </div>
+
+                  <div className="priceElements">
+                    <h2>R$</h2>
+                    <h2>9,90</h2>
+                  </div>
+                </div>
+
+                <hr className="hrStyle" />
+              </div>
+
+              <div className="productTwo">
+                <h3>
+                  <img className="imageOne" src={traditionalLatte} alt="" />
+                  Latte
                 </h3>
                 <div className="price">
                   <div className="elements">

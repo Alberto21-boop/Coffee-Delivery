@@ -216,6 +216,85 @@ export const CardContainer = styled.div`
       color: ${(props) => props.theme["font-button"]};
     }
   }
+
+  .productTwo {
+    display: flex;
+    margin-top: -50px;
+    margin-left: -300px;
+
+    .imageOne {
+      width: 64px;
+      height: 64px;
+      margin-right: 10px;
+      margin-left: -8px;
+    }
+
+    h3 {
+      display: flex;
+      gap: 10px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      white-space: nowrap;
+      margin-right: 60px;
+      margin-left: -88px;
+    }
+
+    .elements {
+      display: flex;
+      gap: 13px;
+      margin-top: 30px;
+      margin-left: -100px;
+
+      button {
+        border: none;
+        background: ${(props) => props.theme["base-button"]};
+        color: ${(props) => props.theme.purple};
+
+        gap: 4px;
+        border-radius: 6px;
+      }
+
+      .buttons {
+        background: ${(props) => props.theme["base-button"]};
+
+        width: 72px;
+        height: 32px;
+
+        border-radius: 6px;
+      }
+
+      .trashButton {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: -4px;
+
+        width: 110px;
+        height: 32px;
+
+        background: ${(props) => props.theme["base-button"]};
+
+        img {
+          margin-left: 5px;
+        }
+
+        color: ${(props) => props.theme["font-button"]};
+      }
+    }
+
+    .hrStyle {
+      width: 368px;
+
+      margin-top: 140px;
+      margin-left: -350px;
+
+      border: 1px solid;
+      border-color: ${(props) => props.theme["base-button"]};
+    }
+  }
 `;
 
 export const ButtonContainer = styled.div`
