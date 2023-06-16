@@ -128,6 +128,8 @@ export const CardContainer = styled.div`
       .imageOne {
         width: 64px;
         height: 64px;
+        margin-right: 10px;
+        margin-left: -8px;
       }
 
       h3 {
@@ -139,18 +141,23 @@ export const CardContainer = styled.div`
         font-size: 16px;
         line-height: 130%;
         white-space: nowrap;
-        margin-right: 65px;
+        margin-right: 60px;
+        margin-left: 6px;
       }
 
       .elements {
         display: flex;
         gap: 13px;
         margin-top: 30px;
-        margin-left: -170px;
+        margin-left: -210px;
 
         button {
           border: none;
           background: ${(props) => props.theme["base-button"]};
+          color: ${(props) => props.theme.purple};
+
+          gap: 4px;
+          border-radius: 6px;
         }
 
         .buttons {
@@ -158,13 +165,15 @@ export const CardContainer = styled.div`
 
           width: 72px;
           height: 32px;
+
+          border-radius: 6px;
         }
 
         .trashButton {
           display: flex;
           align-items: center;
           gap: 5px;
-          margin-left: 25px;
+          margin-left: -4px;
 
           width: 110px;
           height: 32px;
@@ -174,20 +183,37 @@ export const CardContainer = styled.div`
           img {
             margin-left: 5px;
           }
+
+          color: ${(props) => props.theme["font-button"]};
         }
       }
 
-      .priceElements {
-        margin-top: -40px;
-        margin-left: 40px;
-        gap: 5px;
+      .hrStyle {
+        width: 368px;
 
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 130%;
+        margin-top: 140px;
+        margin-left: -350px;
+
+        border: 1px solid;
+        border-color: ${(props) => props.theme["base-button"]};
       }
+    }
+
+    .priceElements {
+      width: 55px;
+      height: 21px;
+
+      margin-top: -40px;
+      margin-left: 40px;
+      gap: 5px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 130%;
+
+      color: ${(props) => props.theme["font-button"]};
     }
   }
 `;

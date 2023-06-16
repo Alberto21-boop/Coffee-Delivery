@@ -18,7 +18,7 @@ export function Purchase() {
         <div className="subHeader">
           <h1>Complete seu pedido</h1>
 
-          <h1>Café selecionados</h1>
+          <h1>Cafés selecionados</h1>
         </div>
 
         <div>
@@ -90,7 +90,7 @@ export function Purchase() {
                   <div className="elements">
                     <div className="buttons">
                       <button className="firstButton">-</button>
-                      <span>0</span>
+                      <span>1</span>
                       <button className="secondButton">+</button>
                     </div>
                     <button className="trashButton">
@@ -99,10 +99,12 @@ export function Purchase() {
                   </div>
 
                   <div className="priceElements">
-                    <p>R$</p>
+                    <h2>R$</h2>
                     <h2>9,90</h2>
                   </div>
                 </div>
+
+                <hr className="hrStyle" />
               </div>
               <button></button>
             </div>
