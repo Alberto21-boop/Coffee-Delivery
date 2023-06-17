@@ -129,7 +129,7 @@ export const CardContainer = styled.div`
         width: 64px;
         height: 64px;
         margin-right: 10px;
-        margin-left: -30px;
+        margin-left: -50px;
       }
 
       h3 {
@@ -226,7 +226,7 @@ export const CardContainer = styled.div`
       gap: 10px;
 
       margin-top: 280px;
-      margin-left: -420px;
+      margin-left: -460px;
 
       & > div {
         display: flex;
@@ -257,6 +257,34 @@ export const CardContainer = styled.div`
         height: 26px;
         white-space: nowrap;
         gap: 210px;
+      }
+
+      .toBuy {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 8px;
+        gap: 4px;
+
+        width: 368px;
+        height: 46px;
+
+        margin-top: 15px;
+        margin-left: 85px;
+
+        border-radius: 8px;
+
+        background: ${(props) => props.theme.yellow};
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+
+        color: ${(props) => props.theme.white};
+
+        border: none;
       }
     }
   }
@@ -333,7 +361,7 @@ export const CardContainer = styled.div`
       width: 368px;
 
       margin-top: 140px;
-      margin-left: -380px;
+      margin-left: -330px;
 
       border: 1px solid;
       border-color: ${(props) => props.theme["base-button"]};

@@ -152,7 +152,7 @@ export function Purchase() {
                     </h2>
                   </div>
                 </div>
-                <button>CONFIRMAR PEDIDO</button>
+                <button className="toBuy">CONFIRMAR PEDIDO</button>
               </div>
             </div>
           </div>
