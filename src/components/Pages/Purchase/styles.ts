@@ -129,7 +129,7 @@ export const CardContainer = styled.div`
         width: 64px;
         height: 64px;
         margin-right: 10px;
-        margin-left: -8px;
+        margin-left: -30px;
       }
 
       h3 {
@@ -142,7 +142,7 @@ export const CardContainer = styled.div`
         line-height: 130%;
         white-space: nowrap;
         margin-right: 60px;
-        margin-left: 6px;
+        margin-left: 35px;
       }
 
       .elements {
@@ -192,7 +192,7 @@ export const CardContainer = styled.div`
         width: 368px;
 
         margin-top: 140px;
-        margin-left: -350px;
+        margin-left: -365px;
 
         border: 1px solid;
         border-color: ${(props) => props.theme["base-button"]};
@@ -215,18 +215,62 @@ export const CardContainer = styled.div`
 
       color: ${(props) => props.theme["font-button"]};
     }
+
+    .footerElements {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+      height: 140px;
+      gap: 10px;
+
+      margin-top: 280px;
+      margin-left: -420px;
+
+      & > div {
+        display: flex;
+        gap: 200px;
+      }
+
+      .lineOne {
+        margin-top: -12px;
+        margin-left: 78px;
+
+        white-space: nowrap;
+      }
+
+      .lineTwo {
+        gap: 300px;
+        white-space: nowrap;
+        margin-left: 30px;
+
+        .positionLineTwo {
+          margin: -50px;
+        }
+      }
+
+      .lineTree {
+        display: flex;
+        margin-left: 80px;
+        width: 368px;
+        height: 26px;
+        white-space: nowrap;
+        gap: 210px;
+      }
+    }
   }
 
   .productTwo {
     display: flex;
     margin-top: -50px;
-    margin-left: -300px;
+    margin-left: -400px;
 
     .imageOne {
       width: 64px;
       height: 64px;
       margin-right: 10px;
-      margin-left: -8px;
+      margin-left: -15px;
     }
 
     h3 {
@@ -239,7 +283,7 @@ export const CardContainer = styled.div`
       line-height: 130%;
       white-space: nowrap;
       margin-right: 60px;
-      margin-left: -88px;
+      margin-left: 35px;
     }
 
     .elements {
@@ -289,7 +333,7 @@ export const CardContainer = styled.div`
       width: 368px;
 
       margin-top: 140px;
-      margin-left: -350px;
+      margin-left: -380px;
 
       border: 1px solid;
       border-color: ${(props) => props.theme["base-button"]};

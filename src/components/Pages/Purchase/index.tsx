@@ -133,7 +133,27 @@ export function Purchase() {
 
                 <hr className="hrStyle" />
               </div>
-              <button></button>
+
+              <div className="footerElements">
+                <div className="lineOne">
+                  Total de itens <div>R$ 19,80</div>
+                </div>
+                <div className="lineTwo">
+                  Entrega <div className="positionLineTwo">R$ 3,50</div>
+                </div>
+
+                <div className="lineTree">
+                  <h2>
+                    <strong>Total</strong>
+                  </h2>{" "}
+                  <div>
+                    <h2>
+                      <strong>R$ 23,20</strong>
+                    </h2>
+                  </div>
+                </div>
+                <button>CONFIRMAR PEDIDO</button>
+              </div>
             </div>
           </div>
         </CardContainer>
