@@ -57,19 +57,24 @@ export const OrderConfirmedContainer = styled.div`
     width: 526px;
     height: 270px;
     left: calc(50% - 526px / 2 - 297px);
-    border-radius: 6px 36px;
 
     margin-left: 58px;
 
     margin-top: 50px;
 
-    /* border: 1px solid ${(props) => props.theme["purple"]}; */
+    border-radius: 6px 36px;
 
     border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to right, red 50%, blue 50%) 1;
 
-    border-radius: 6px 36px;
+    border-image: linear-gradient(to right, red 50%, blue 50%);
+    border-image-slice: 1;
+
+    /* border: 1px solid ${(props) => props.theme["purple"]}; */
+
+    /*  border-width: 1px; */
+    border-style: solid;
+
+    /* border-image: linear-gradient(to right, red 50%, blue 50%) 1; */
 
     .lineOneFinish {
       display: flex;
