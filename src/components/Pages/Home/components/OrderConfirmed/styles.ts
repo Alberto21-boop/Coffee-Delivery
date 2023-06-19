@@ -34,6 +34,15 @@ export const OrderConfirmedContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 3px;
+
+    gap: 20px;
+
+    .biker {
+      display: flex;
+      margin-left: 726px;
+
+      margin-top: 53px;
+    }
   }
 
   .card {
@@ -48,14 +57,65 @@ export const OrderConfirmedContainer = styled.div`
     width: 526px;
     height: 270px;
     left: calc(50% - 526px / 2 - 297px);
+    border-radius: 6px 36px;
+
+    margin-left: 58px;
+
+    margin-top: 50px;
+
+    /* border: 1px solid ${(props) => props.theme["purple"]}; */
+
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, red 50%, blue 50%) 1;
 
     border-radius: 6px 36px;
 
     .lineOneFinish {
       display: flex;
-      .lineOneFinish > h3 {
-        display: flex;
-        align-items: center;
+      align-items: flex-start;
+      gap: 20px;
+
+      h3 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+
+        color: ${(props) => props.theme["font-button"]};
+      }
+    }
+
+    .lineTwoFinish {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+
+      h3 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+
+        color: ${(props) => props.theme["font-button"]};
+      }
+    }
+
+    .lineTreeFinish {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+
+      h3 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+
+        color: ${(props) => props.theme["font-button"]};
       }
     }
   }

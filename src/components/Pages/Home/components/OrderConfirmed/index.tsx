@@ -15,29 +15,29 @@ export function OrderConfirmed() {
           <h3>Agora é só aguardar que logo o café chegará até você</h3>
         </div>
         <div className="center">
-          <div className="Card">
+          <div className="card">
             <div className="lineOneFinish">
+              <img src={location} alt="" />
               <h3>
-                <img src={location} alt="" />
-                Entrega em Rua João Daniel Martinelli, 102 <br /> Farrapos -
-                Porto Alegre, RS
+                Entrega em <strong>Rua João Daniel Martinelli, 102</strong>{" "}
+                <br /> Farrapos - Porto Alegre, RS
               </h3>
             </div>
-            <div>
+            <div className="lineTwoFinish">
+              <img src={timer} alt="" />
               <h3>
-                <img src={timer} alt="" />
-                Previsão de entrega 20 min - 30 min
+                Previsão de entrega <br /> <strong>20 min - 30 min</strong>{" "}
               </h3>
             </div>
 
-            <div>
+            <div className="lineTreeFinish">
+              <img src={moneyPay} alt="" />
               <h3>
-                <img src={moneyPay} alt="" />
-                Pagamento na entrega Cartão de Crédito
+                Pagamento na entrega <br /> <strong>Cartão de Crédito</strong>{" "}
               </h3>
             </div>
           </div>
-          <div>
+          <div className="biker">
             <img src={biker} alt="" />
           </div>
         </div>
