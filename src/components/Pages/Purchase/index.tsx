@@ -8,6 +8,7 @@ import money from "../../../assets/money.svg";
 import traditionalEspresso from "../../../assets/traditionalEspresso.svg";
 import trash from "../../../assets/trash.svg";
 import traditionalLatte from "../../../assets/traditionalLatte.svg";
+import { Link } from "react-router-dom";
 /* import { useForm } from "react-hook-form"; */
 
 export function Purchase() {
@@ -152,7 +153,9 @@ export function Purchase() {
                     </h2>
                   </div>
                 </div>
-                <button className="toBuy">CONFIRMAR PEDIDO</button>
+                <Link to="/OrderConfirmed">
+                  <button className="toBuy">CONFIRMAR PEDIDO</button>
+                </Link>
               </div>
             </div>
           </div>
