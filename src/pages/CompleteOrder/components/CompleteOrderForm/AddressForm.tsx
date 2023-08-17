@@ -24,24 +24,24 @@ export function AddressForm() {
       />
 
       <Input placeholder="Rua" className="street"
-        {...register("Rua")} error={errors.Rua?.message}
+        {...register("street")} error={errors.street?.message}
       />
 
       <Input placeholder="Número" type="number"
-        {...register("Número")} error={errors.Numero?.message}
+        {...register("number")} error={errors.number?.message}
       />
 
       <Input placeholder="Complemento" className="complement"
-        {...register("Complemento")} error={errors.Complemento?.message}
+        {...register("complement")} error={errors.complement?.message}
         rightText="Optional"
       />
 
       <Input placeholder="Bairro"
-        {...register("Bairro")} error={errors.Bairro?.message}
+        {...register("district")} error={errors.district?.message}
       />
 
       <Input placeholder="Cidade"
-        {...register("Cidade")} error={errors.Cidade?.message}
+        {...register("city")} error={errors.city?.message}
       />
 
       <Input placeholder="UF"
