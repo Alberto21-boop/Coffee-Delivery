@@ -74,7 +74,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vite](https://vitejs.dev/guide/)
 
 ## 🔗 Link do projeto
-Se quiser ver o projeto no ar, clique [aqui](https://nome-do-repo-ab.vercel.app).
+Se quiser ver o projeto no ar, clique [aqui](coffee-delivery-r7tsc44c3-alberto21-boop.vercel.app).
 
 ## 🚀 Como executar
 
