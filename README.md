@@ -1,4 +1,4 @@
-<h1 align="center">Title - Subtitle</h1>
+<h1 align="center">Coffe Delivery</h1>
 
 <p align="center">
   <img 
@@ -35,7 +35,19 @@
 
 <h3 align="center">Imagem prévia da aplicação</h3>
 
-![cover](.github/project-preview.png?style=flat)
+![image](https://github.com/Alberto21-boop/Coffee-Delivery/assets/85910024/2a90d055-7247-4503-a691-412599931478)
+
+![image](https://github.com/Alberto21-boop/Coffee-Delivery/assets/85910024/bbdd87f1-fa9e-453e-8445-e658ae9dd813)
+
+![image](https://github.com/Alberto21-boop/Coffee-Delivery/assets/85910024/fd3cc2bf-1e45-4ab8-86a4-1b638e83ef70)
+
+![image](https://github.com/Alberto21-boop/Coffee-Delivery/assets/85910024/d21cfa8d-f8df-41ff-bec4-8ba8f3132fc2)
+
+![image](https://github.com/Alberto21-boop/Coffee-Delivery/assets/85910024/78f91d48-e3ee-45e4-a72e-25977caa44dc)
+
+
+
+
 
 <br>
 
@@ -43,15 +55,12 @@
 
 Descrição do projeto:
 
-- Intro da aplicação
-- Origem da aplicação?
-- Por que fez e sua utilidade?
 
 ### Exemplo
 
 Essa aplicação foi desenvolvida para estudos seguindo os ensinamentos da **[Rocketseat](https://www.rocketseat.com.br/)** no curso Ignite **[Ignite](https://www.rocketseat.com.br/ignite)** .
 
-Nele aborda a criação de um projeto do zero em <strong>JavaScript</strong> e depois refatorado para <strong>TypeScript</strong>, também contém a configuração <strong>Webpack</strong> e <strong>Babel</strong> do zero.
+Nele aborda a criação de um projeto do zero em <strong>TypeScript, Raect, CSS</strong> , também contém a configuração <strong>Vite</strong> do zero.
 
 Contendo anotações e comentários particulares servindo de consulta para novos projetos.
 
@@ -61,9 +70,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Sass](https://sass-lang.com/)
-- [Webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
+- [Styled-Component](https://styled-components.com/)
+- [Vite](https://vitejs.dev/guide/)
 
 ## 🔗 Link do projeto
 Se quiser ver o projeto no ar, clique [aqui](https://nome-do-repo-ab.vercel.app).
@@ -103,6 +111,25 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 ## 📓 Anotações pessoais
 
 <h3>Instalação de dependências e outros comandos</h3>
+
+Devido a atualização do React, até a data de hoje 16/05/2023 é impossivel
+trabalhar com styled-components.
+
+Por tanto devemos realizar um downgrade no npm para a versão 7.0.0 da seguinte
+forma:
+
+Primeiro com o ctrl + j rode o npm i -g npm@7
+Segundo rode o npm i --legacy-peer-deps styled-components
+
+Feito isso, após realizar o downgrade. com estes comandos, instalamos o styled-component
+da seguinte forma:
+
+npm i styled-components
+
+E para as rotas, instalamos a biblioteca npm install react-router-dom
+
+Para os formulários vamos começar com esta biblioteca npm install react-hook-form
+
 
 ```bash
 # Instalando a biblioteca para consumo de APIs
